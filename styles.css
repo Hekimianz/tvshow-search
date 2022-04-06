@@ -61,3 +61,27 @@ button {
         grid-template-columns: 300px;
     }
 }
+
+@media (min-width: 481px) {
+    #results-list {
+        grid-template-columns: 300px 300px;
+    }
+}
+
+@media (min-width: 769px) {
+    #results-list {
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #results-list {
+        grid-template-columns: 300px 300px 300px 300px;
+    }
+}
+
+@media (min-width: 1201px) {
+    #results-list {
+        grid-template-columns: 300px 300px 300px 300px 300px;
+    }
+}
