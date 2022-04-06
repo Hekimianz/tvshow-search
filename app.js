@@ -7,6 +7,9 @@ const results = document.querySelector("#results-list");
 
 form.addEventListener("submit", async (e) => {
     e.preventDefault();
+    while (results.firstChild) {
+        results.removeChild(results.firstChild);
+    }
     userInput = searchBox.value;
     searchBox.value = "";
     const config = { params: { q: userInput } }
